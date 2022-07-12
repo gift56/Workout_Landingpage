@@ -19,6 +19,12 @@ const Hero = () => {
                     <div>
                         <span>Ideal body</span>
                     </div>
+                    <div>
+                        <span>
+                            In here we will help you to shape and build your ideal body
+                            and live up your life to the fullest
+                        </span>
+                    </div>
                 </div>
             </div>
             <div className="rightH">
