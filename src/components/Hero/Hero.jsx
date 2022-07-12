@@ -7,6 +7,10 @@ const Hero = () => {
         <div className='hero'>
             <div className="leftH">
                 <Header />
+                <div className="theBest-ad">
+                    <div></div>
+                    <span>The best fitness club in the town</span>
+                </div>
             </div>
             <div className="rightH">
                 rightSide
