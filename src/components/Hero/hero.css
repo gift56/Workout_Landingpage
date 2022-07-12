@@ -67,6 +67,22 @@
     color: var(--gray);
     text-transform: uppercase;
 }
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    font-weight: normal;
+}
+.hero-buttons > :nth-child(1) {
+    background-color: var(--orange);
+    color: #ffffff;
+    width: 10rem;
+}
+.hero-buttons > :nth-child(2) {
+    background-color: transparent;
+    color: #ffffff;
+    width: 10rem;
+    border: 2px solid var(--orange);
+}
 .rightH {
     flex: 1;
 }
