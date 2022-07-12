@@ -5,4 +5,8 @@
 .leftH {
     padding: 2rem;
     padding-top: 1.5rem;
+    flex: 3;
+}
+.rightH {
+    flex: 1;
 }
