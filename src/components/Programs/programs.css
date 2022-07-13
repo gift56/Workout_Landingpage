@@ -1,4 +1,4 @@
-.programs{
+.programs {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -13,4 +13,42 @@
     color: #ffffff;
     text-transform: uppercase;
     justify-content: center;
+}
+.programsCatergories {
+    display: flex;
+    gap: 1rem;
+}
+.catergory {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #808080;
+    color: #ffffff;
+    padding: 2rem;
+}
+.catergory:hover {
+    background: var(--planCard);
+    cursor: pointer;
+}
+.catergory > :nth-child(1) {
+    width: 2rem;
+    height: 2rem;
+    fill: #ffffff;
+}
+.catergory > :nth-child(2) {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.catergory > :nth-child(3) {
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+.joinNow {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.joinNow > img {
+    width: 1rem;
 }
