@@ -107,3 +107,13 @@
     top: 7rem;
     right: 4rem;
 }
+.heartRate > img {
+    width: 2rem;
+}
+.heartRate > :nth-child(2) {
+    color: var(--gray);
+}
+.heartRate > :nth-child(3) {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
