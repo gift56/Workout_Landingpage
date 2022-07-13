@@ -50,7 +50,12 @@ const Hero = () => {
                 </div>
             </div>
             <div className="rightH">
-                rightSide
+                <button className="btn">Join Now</button>
+                <div className="heartRate">
+                    <img src={heart} alt="" />
+                    <span>Heart Rate</span>
+                    <span>116 bpm</span>
+                </div>
             </div>
         </div>
     )
