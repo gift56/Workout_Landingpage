@@ -1,6 +1,10 @@
 import React from 'react'
 import Header from '../Header/Header';
 import './hero.css';
+import hero_img from '../../assets/hero_image.png';
+import hero_img_back from '../../assets/hero_image_back.png';
+import heart from '../../assets/heart.png';
+import calories from '../../assets/calories.png';
 
 const Hero = () => {
     return (
