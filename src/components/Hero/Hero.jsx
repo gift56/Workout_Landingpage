@@ -56,6 +56,8 @@ const Hero = () => {
                     <span>Heart Rate</span>
                     <span>116 bpm</span>
                 </div>
+                <img src={hero_img} alt="" className='heroImg' />
+                <img src={hero_img_back} alt="" className='heroImg-back'/>
             </div>
         </div>
     )
