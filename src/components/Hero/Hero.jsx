@@ -68,7 +68,11 @@ const Hero = () => {
                     <span>116 bpm</span>
                 </motion.div>
                 <img src={hero_img} alt="" className='heroImg' />
-                <img src={hero_img_back} alt="" className='heroImg-back' />
+                <motion.img
+                    initial={{ right: '11rem' }}
+                    whileInView={{ right: '23rem' }}
+                    transition={transition}
+                    src={hero_img_back} alt="" className='heroImg-back' />
                 <motion.div
                     initial={{ right: '34rem' }}
                     whileInView={{ right: '38rem' }}
