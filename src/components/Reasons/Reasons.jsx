@@ -24,6 +24,25 @@ const Reasons = () => {
                     <span className='stroke-text'>why</span>
                     <span> choose us?</span>
                 </div>
+                <div className='detailsR'>
+                    <div>
+                        <img src={tick} alt="" />
+                        <span>OVER 140+ EXPERT COACHS</span>
+                    </div>
+                    <div>
+                        <img src={tick} alt="" />
+                        <span>TRAIN SMARTER AND FASTER THAN BEFORE</span>
+                    </div>
+                    <div>
+                        <img src={tick} alt="" />
+                        <span>1 FREE PROGRAMS FOR NEW MEMBERS</span>
+                    </div>
+                    <div>
+                        <img src={tick} alt="" />
+                        <span>RELIABLE PARTNERS</span>
+                    </div>
+                </div>
+                <span className='part'>OUR PARTNERS</span>
             </div>
         </div>
     )
