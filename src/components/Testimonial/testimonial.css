@@ -20,3 +20,49 @@
     font-size: 3rem;
     font-weight: bold;
 }
+.leftT > :nth-child(4) {
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+.rightT {
+    flex: 1;
+    position: relative;
+}
+.rightT > img {
+    position: absolute;
+    right: 8rem;
+    top: 2rem;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+}
+.rightT > :nth-child(1) {
+    position: absolute;
+    right: 9rem;
+    top: 0.9rem;
+    width: 17rem;
+    height: 20rem;
+    border: 2px solid var(--orange);
+    background: transparent;
+}
+.rightT > :nth-child(2) {
+    position: absolute;
+    right: 7rem;
+    top: 4rem;
+    width: 17rem;
+    height: 20rem;
+    background: var(--planCard);
+}
+.arrows {
+    position: absolute;
+    bottom: 1rem;
+    left: 4rem;
+    display: flex;
+    gap: 1rem;
+}
+.arrows > img {
+    width: 1.5rem;
+    cursor: pointer;
+}
