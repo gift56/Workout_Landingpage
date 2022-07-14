@@ -18,7 +18,7 @@ const Hero = () => {
                     <motion.div
                         initial={{ left: '238px' }}
                         whileInView={{ left: '8px' }}
-                        transition={transition}
+                        transition={{...transition,type:'tween'}}
                     ></motion.div>
                     <span>The best fitness club in the town</span>
                 </div>
