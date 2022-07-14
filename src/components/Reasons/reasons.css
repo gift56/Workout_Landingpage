@@ -30,9 +30,23 @@
 }
 .leftR > :nth-child(4) {
     width: 10rem;
+    height: 11.2rem;
     grid-row: 2;
     grid-column: 3/4;
 }
 .rightR {
     flex: 1 1;
+    text-transform: uppercase;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.rightR > span {
+    color: var(--orange);
+    font-weight: bold;
+}
+.rightR > div {
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: bold;
 }
