@@ -60,11 +60,18 @@
     font-size: 1rem;
     gap: 1rem;
 }
-.detailsR > div>img{
-   width: 2rem; 
-   height: 2rem;
+.detailsR > div > img {
+    width: 2rem;
+    height: 2rem;
 }
-.part{
+.part {
     color: var(--gray) !important;
     font-weight: normal !important;
+}
+.partnersImg {
+    display: flex;
+    gap: 1rem;
+}
+.partnersImg > img {
+    width: 2.5rem;
 }

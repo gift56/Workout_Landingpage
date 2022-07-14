@@ -43,6 +43,11 @@ const Reasons = () => {
                     </div>
                 </div>
                 <span className='part'>OUR PARTNERS</span>
+                <div className="partnersImg">
+                    <img src={nb} alt="" />
+                    <img src={adidas} alt="" />
+                    <img src={nike} alt="" />
+                </div>
             </div>
         </div>
     )
