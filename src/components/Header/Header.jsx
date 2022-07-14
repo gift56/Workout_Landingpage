@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './header.css';
+import { Link } from 'react-scroll';
 import Logo from '../../assets/logo.png';
 import Bars from '../../assets/bars.png';
 
@@ -27,11 +28,19 @@ const Header = () => {
                 </div>
             ) : (
                 <ul className='header-menu'>
-                    <li onClick={()=>setMenuOpen(false)}>Home</li>
-                    <li onClick={()=>setMenuOpen(false)}>Programs</li>
-                    <li onClick={()=>setMenuOpen(false)}>Why us</li>
-                    <li onClick={()=>setMenuOpen(false)}>Plans</li>
-                    <li onClick={()=>setMenuOpen(false)}>Testimonials</li>
+                    <li onClick={() => setMenuOpen(false)}><Link>Home</Link></li>
+                    <li onClick={() => setMenuOpen(false)}><Link>Programs</Link></li>
+                    <li onClick={() => setMenuOpen(false)}><Link>Why us</Link></li>
+                    <li onClick={() => setMenuOpen(false)}><Link>Plans</Link></li>
+                    <li>
+                        <Link
+                            onClick={() => setMenuOpen(false)}
+                            to='testimonial'
+                            span={true}
+                            smooth={true}
+                        >Testimonials
+                        </Link>
+                    </li>
                 </ul>
             )}
 
