@@ -194,4 +194,30 @@
     .figures > div > span:nth-of-type(2) {
         font-size: small;
     }
+    .rightH {
+        position: relative;
+        background: none;
+    }
+    .heartRate {
+        left: 1rem;
+        top: 2rem;
+    }
+    .calories {
+        position: relative;
+        top: 5rem;
+        left: 2rem;
+    }
+    .calories > img {
+        width: 2rem;
+    }
+    .calories > div > :nth-child(2) {
+        font-size: 1rem;
+    }
+    .heroImg{
+        position: relative;
+        width: 15rem;
+        left: 7rem;
+        top: 4rem;
+        align-self: center;
+    }
 }
