@@ -15,9 +15,15 @@ const Testimonial = () => {
                 <span>Testimonials</span>
                 <span className='stroke-text'>What they</span>
                 <span>say about us</span>
-                <span>
+                <motion.span
+                    key={selected}
+                    initial={{ opacity: 0, x: -100 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    exit={{ opacity: 0, x: 100 }}
+                    transition={transition}
+                >
                     {testimonialsData[selected].review}
-                </span>
+                </motion.span>
                 <span>
                     <span style={{ color: "var(--orange)" }}>
                         {testimonialsData[selected].name}
