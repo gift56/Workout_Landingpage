@@ -9,6 +9,7 @@ import calories from '../../assets/calories.png';
 const Hero = () => {
     return (
         <div className='hero'>
+            <div className="blur blurH"></div>
             <div className="leftH">
                 <Header />
                 <div className="theBest-ad">
@@ -57,7 +58,7 @@ const Hero = () => {
                     <span>116 bpm</span>
                 </div>
                 <img src={hero_img} alt="" className='heroImg' />
-                <img src={hero_img_back} alt="" className='heroImg-back'/>
+                <img src={hero_img_back} alt="" className='heroImg-back' />
                 <div className="calories">
                     <img src={calories} alt="" />
                     <div>

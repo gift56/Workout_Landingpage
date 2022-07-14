@@ -2,6 +2,11 @@
     display: flex;
     justify-content: space-between;
 }
+.blurH {
+    width: 22rem;
+    height: 30rem;
+    left: 0;
+}
 .leftH {
     padding: 2rem;
     padding-top: 1.5rem;
