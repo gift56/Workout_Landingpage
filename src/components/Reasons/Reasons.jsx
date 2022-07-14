@@ -13,10 +13,13 @@ const Reasons = () => {
     return (
         <div className="Reasons" id='Reasons'>
             <div className="leftR">
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
+                <img src={image1} alt="" />
+                <img src={image2} alt="" />
+                <img src={image3} alt="" />
+                <img src={image4} alt="" />
+            </div>
+            <div className="rightR">
+                right
             </div>
         </div>
     )
