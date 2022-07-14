@@ -220,4 +220,9 @@
         top: 4rem;
         align-self: center;
     }
+    .heroImg-back {
+        width: 15rem;
+        left: 2rem;
+        top: 0;
+    }
 }
