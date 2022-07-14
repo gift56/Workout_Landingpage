@@ -6,6 +6,8 @@ import './plans.css';
 const Plans = () => {
     return (
         <div className="plansContainer">
+            <div className="blur blurP1"></div>
+            <div className="blur blurP2"></div>
             <div className="programsHeader">
                 <span className='stroke-text'>READY TO START</span>
                 <span>YOUR JOURNEY</span>
