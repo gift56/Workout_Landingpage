@@ -9,10 +9,38 @@
     color: #ffffff;
     position: relative;
 }
+.leftJ > div {
+    display: flex;
+    gap: 1rem;
+}
 .leftJ > hr {
     position: absolute;
     width: 10.5rem;
     border: 2px solid var(--orange);
     border-radius: 20%;
     margin: -10px 0;
+}
+.rightJ {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.emailContainer {
+    display: flex;
+    gap: 3rem;
+    background-color: gray;
+    padding: 1rem 2rem;
+}
+.emailContainer > input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--lightgray);
+}
+::placeholder {
+    color: var(--lightgray);
+}
+.btnJ {
+    background: var(--orange);
+    color: #ffffff;
 }
