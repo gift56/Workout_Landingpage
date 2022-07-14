@@ -1,0 +1,22 @@
+.Testimonials {
+    display: flex;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+.leftT {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    gap: 2rem;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.leftT > :nth-child(1) {
+    font-weight: bold;
+    color: var(--orange);
+}
+.leftT > :nth-child(2),
+.leftT > :nth-child(3) {
+    font-size: 3rem;
+    font-weight: bold;
+}
