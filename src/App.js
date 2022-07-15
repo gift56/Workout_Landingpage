@@ -8,7 +8,7 @@ import Reasons from './components/Reasons/Reasons';
 import Testimonial from './components/Testimonial/Testimonial';
 
 function App() {
-  document.title='Fitness-Club'
+  document.title='Fitness-Club';
   return (
     <div className="App">
       <Hero />
