@@ -22,7 +22,7 @@
     height: 2rem;
     cursor: pointer;
 }
-.logoF > img {
+.logoF > a img {
     width: 10rem;
 }
 .blurF1 {

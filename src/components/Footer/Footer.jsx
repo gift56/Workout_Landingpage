@@ -4,6 +4,7 @@ import Github from '../../assets/github.png';
 import Twitter from '../../assets/twitter.png';
 import Linkedin from '../../assets/linkedin.png';
 import Logo from '../../assets/logo.png';
+import { Link } from 'react-scroll';
 
 const Footer = () => {
     return (
@@ -32,7 +33,13 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className="logoF">
-                    <img src={Logo} alt="" />
+                    <Link
+                        to='home'
+                        spy={true}
+                        smooth={true}
+                    >
+                        <img src={Logo} alt="" />
+                    </Link>
                 </div>
             </div>
             <div className="blur blurF1"></div>
