@@ -24,6 +24,7 @@
 }
 .logoF > a img {
     width: 10rem;
+    cursor: pointer;
 }
 .blurF1 {
     bottom: 0;
