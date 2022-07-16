@@ -11,9 +11,9 @@ const Footer = () => {
             <hr />
             <div className="footer">
                 <div className="socialLinks">
-                    <img src={Github} alt="" />
-                    <img src={Instagram} alt="" />
-                    <img src={Linkedin} alt="" />
+                    <a href="#Home"><img src={Github} alt="" /></a>
+                    <a href="https://twitter.com/AsiughuE"><img src={Instagram} alt="" /></a>
+                    <a href="#home"><img src={Linkedin} alt="" /></a>
                 </div>
                 <div className="logoF">
                     <img src={Logo} alt="" />
