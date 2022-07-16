@@ -11,12 +11,25 @@ const Footer = () => {
             <hr />
             <div className="footer">
                 <div className="socialLinks">
-                    <a href="#Home"><img src={Github} alt="" /></a>
+                    <a
+                        href="https://github.com/gift56"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img src={Github} alt="" />
+                    </a>
                     <a
                         href="https://twitter.com/AsiughuE"
                         target="_blank"
-                        rel="noopener noreferrer"><img src={Twitter} alt="" /></a>
-                    <a href="#home"><img src={Linkedin} alt="" /></a>
+                        rel="noopener noreferrer">
+                        <img src={Twitter} alt="" />
+                    </a>
+                    <a href="https://www.linkedin.com/mwlite/in/efe-gift-109120241"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img src={Linkedin} alt="" />
+                    </a>
                 </div>
                 <div className="logoF">
                     <img src={Logo} alt="" />
