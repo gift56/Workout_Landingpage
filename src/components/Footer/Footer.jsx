@@ -1,7 +1,7 @@
 import React from 'react';
 import './footer.css';
 import Github from '../../assets/github.png';
-import Instagram from '../../assets/instagram.png';
+import Twitter from '../../assets/twitter.png';
 import Linkedin from '../../assets/linkedin.png';
 import Logo from '../../assets/logo.png';
 
@@ -12,7 +12,10 @@ const Footer = () => {
             <div className="footer">
                 <div className="socialLinks">
                     <a href="#Home"><img src={Github} alt="" /></a>
-                    <a href="https://twitter.com/AsiughuE"><img src={Instagram} alt="" /></a>
+                    <a
+                        href="https://twitter.com/AsiughuE"
+                        target="_blank"
+                        rel="noopener noreferrer"><img src={Twitter} alt="" /></a>
                     <a href="#home"><img src={Linkedin} alt="" /></a>
                 </div>
                 <div className="logoF">
