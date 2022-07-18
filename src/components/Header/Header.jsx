@@ -13,7 +13,6 @@ const Header = () => {
 
     useEffect(() => {
         const resetMenu = (e) => {
-            console.log(e)
             if (e.path[0].tagName !== 'IMG') {
                 setMenuOpen(false)
             }
