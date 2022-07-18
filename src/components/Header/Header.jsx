@@ -69,6 +69,15 @@ const Header = () => {
                         >Testimonials
                         </Link>
                     </li>
+                    <div className='closeIcon'
+                        onClick={() => setMenuOpen(false)}
+                    >
+                        <img src={Bars} alt="" style={{
+                            width: '1.5rem',
+                            height: '1.5rem',
+                            cursor: 'pointer'
+                        }} />
+                    </div>
                 </ul>
             )}
 

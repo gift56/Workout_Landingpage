@@ -16,7 +16,10 @@
     color: var(--orange);
     cursor: pointer;
 }
-@media screen and (max-width: 768px) {
+.closeIcon {
+    display: none;
+}
+@media screen and (max-width: 914px) {
     .header > :nth-child(2) {
         position: fixed;
         right: 2rem;
@@ -27,5 +30,14 @@
         background-color: var(--appColor);
         padding: 2rem;
         transform: translateY(38px);
+    }
+    .closeIcon {
+        display: block;
+        background: var(--appColor);
+        padding: 0.5rem;
+        border-radius: 5px;
+        position: absolute;
+        top: -46px;
+        right: 0;
     }
 }
