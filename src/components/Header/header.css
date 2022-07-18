@@ -26,5 +26,6 @@
         flex-direction: column;
         background-color: var(--appColor);
         padding: 2rem;
+        transform: translateY(38px);
     }
 }

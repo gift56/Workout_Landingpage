@@ -4,6 +4,7 @@ import { Link } from 'react-scroll';
 import Logo from '../../assets/logo.png';
 import Bars from '../../assets/bars.png';
 
+
 const Header = () => {
     const mobile = window.innerWidth <= 768 ? true : false;
 
