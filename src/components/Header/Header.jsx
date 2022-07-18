@@ -3,6 +3,7 @@ import './header.css';
 import { Link } from 'react-scroll';
 import Logo from '../../assets/logo.png';
 import Bars from '../../assets/bars.png';
+import Times from '../../assets/times.png'
 
 
 const Header = () => {
@@ -69,13 +70,11 @@ const Header = () => {
                         >Testimonials
                         </Link>
                     </li>
-                    <div className='closeIcon'
-                        onClick={() => setMenuOpen(false)}
-                    >
-                        <img src={Bars} alt="" style={{
-                            width: '1.5rem',
+                    <div className='closeIcon' onClick={() => setMenuOpen(false)}>
+                        <img src={Times} alt="" style={{
+                            width: '2rem',
                             height: '1.5rem',
-                            cursor: 'pointer'
+                            cursor: 'pointer',
                         }} />
                     </div>
                 </ul>
