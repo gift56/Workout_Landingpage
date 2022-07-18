@@ -18,9 +18,9 @@ const Header = () => {
                 setMenuOpen(false)
             }
         };
+        document.body.addEventListener('click', resetMenu);
 
-        document.body.addEventListener('click', resetMenu)
-        return () => document.body.removeEventListener('click', resetMenu)
+        return () => document.body.removeEventListener('click', resetMenu);
     }, []);
 
     return (
@@ -40,10 +40,10 @@ const Header = () => {
                         width: '1.5rem',
                         height: '1.5rem',
                         cursor: 'pointer'
-                    }} className='Bar' />
+                    }} />
                 </button>
             ) : (
-                <ul className='header-menu' id='navMenu'>
+                <ul className='header-menu'>
                     <li>
                         <Link
                             onClick={() => setMenuOpen(false)}
