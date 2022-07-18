@@ -6,7 +6,7 @@ import Bars from '../../assets/bars.png';
 
 
 const Header = () => {
-    const mobile = window.innerWidth <= 768 ? true : false;
+    const mobile = window.innerWidth <= 914 ? true : false;
 
     const [menuOpen, setMenuOpen] = useState(false);
 
