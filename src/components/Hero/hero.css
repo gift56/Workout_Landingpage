@@ -161,6 +161,31 @@
     color: #ffffff;
     font-size: 1.5rem;
 }
+@media screen and (max-width: 1399px) {
+    .calories {
+        position: absolute;
+        top: 33rem;
+        right: 27rem !important;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .calories {
+        position: absolute;
+        top: 33rem;
+        right: 0.8rem !important;
+    }
+    .heroImg {
+        width: 18rem;
+    }
+    .heroImg-back {
+        width: 10rem;
+    }
+}
+@media screen and (max-width: 1030px) {
+    .hero-txt {
+        font-size: 3rem;
+    }
+}
 @media screen and (max-width: 768px) {
     .hero {
         flex-direction: column;
@@ -213,7 +238,7 @@
     .calories > div > :nth-child(2) {
         font-size: 1rem;
     }
-    .heroImg{
+    .heroImg {
         position: relative;
         width: 15rem;
         left: 7rem;
