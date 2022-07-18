@@ -29,7 +29,7 @@
         flex-direction: column;
         background-color: var(--appColor);
         padding: 2rem;
-        transform: translateY(38px);
+        transform: translateY(40px);
     }
     .closeIcon {
         display: block;
@@ -37,7 +37,7 @@
         padding: 0.5rem;
         border-radius: 5px;
         position: absolute;
-        top: -46px;
+        top: -50px;
         right: 0;
     }
 }
